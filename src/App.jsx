@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div className="App font-epilogue">
+    <div className="App font-epilogue bg-almostWhite">
       <Navbar />
     </div>
   )
