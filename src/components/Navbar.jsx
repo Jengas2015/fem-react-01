@@ -7,27 +7,27 @@ function Navbar() {
             <div className="menu-items flex justify-start">
             <img src={logo} alt="logo" className='max-h-7' />
                 <ul className='menu-container flex ml-3 text-mediumGray'>
-                    <ul className='ml-20'>
+                    <ul className='ml-20 relative items-start'>
                         Features
-                        <div className='sub-menu mt-3 bg-white'>
+                        <ul className='sub-menu mt-3 bg-white absolute shadow-lg p-5 right-0' >
                             <li>
                                 Todo List
                             </li>
                             <li>
-                                Todo List
+                                Calendar
                             </li>
                             <li>
-                                Todo List
+                                Reminders
                             </li>
                             <li>
-                                Todo List
+                                Planning
                             </li>
-                        </div>
+                        </ul>
 
                     </ul >
-                    <ul className='ml-8'>
+                    <ul className='ml-12 relative'>
                         Company
-                        <div className='sub-menu mt-3 bg-white'>
+                        <div className='sub-menu mt-3 bg-white absolute shadow-lg'>
                             <li>History</li>
                             <li>Our Team</li>
                             <li>Blog</li>
